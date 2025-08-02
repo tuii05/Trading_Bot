@@ -8,9 +8,9 @@ When initializing the trading bot, two key parameters should be provided:
 
 The trading bot has three models implemented in it:
 
-- `"RFC"` - A basic Random Forest Classifier implemented using Scikit-learn.
-- `"XGB"` - A gradient boosting predictive model from the XGBoost library.
-- `"Merton"` - A custom implementation of the Merton Jump Diffusion Model, optimized with multithreading for improved performance.
+- `RFC` - A basic Random Forest Classifier implemented using Scikit-learn.
+- `XGB` - A gradient boosting predictive model from the XGBoost library.
+- `Merton` - A custom implementation of the Merton Jump Diffusion Model, optimized with multithreading for improved performance.
 
 Notes on the Merton Jump Diffusion model:
 
