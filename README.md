@@ -14,7 +14,7 @@ The trading bot has three models implemented in it:
 
 Notes on the Merton Jump Diffusion model:
 
-- The initial parameter (e.g. volatility, jump intensity) of the model should be manually tuned for each stock to achieve better returns.
+- The initial parameter (e.g. volatility, jump intensity) of the model should be manually tuned for each stock to achieve better anual returns.
 - Dividend yield is set to zero by default. For dividend-paying stocks, this must be adjusted accordingly to reflect more accurate pricing dynamics.
 
 
