@@ -16,5 +16,6 @@ Notes on the Merton Jump Diffusion model:
 
 - The initial parameter (e.g. volatility, jump intensity) of the model should be manually tuned for each stock to achieve better annual returns.
 - Dividend yield is set to zero by default. For dividend-paying stocks, this must be adjusted accordingly to reflect more accurate pricing dynamics.
+- The model doesn't really provide the best results when working with stocks where jumps rarely occur.
 
 
